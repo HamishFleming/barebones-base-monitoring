@@ -55,9 +55,10 @@ scrape_configs:
         replacement: blackbox_exporter:9115
     static_configs:
       - targets:
-        - 'https://www.google.com'
-        - 'https://gospace.com.au'
         - 'https://aftershockpcdrivers.com'
+        - 'https://www.aftershockpc.com.au'
+        - 'https://github.com'
+        - 'https://gospace.com.au'
       # - targets: ['blackbox_exporter:9115']
 
 alerting:
